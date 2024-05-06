@@ -28,3 +28,7 @@ nav {
     padding: 16px;
     border-radius: 10px;
 }
+
+ul, li {
+    list-style: none; /*para tirar a bolinha*/
+}
