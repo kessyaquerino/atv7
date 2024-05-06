@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+:root {
+    --main-background: #ccfbf1;
+    --text-color: #020617;
+    --nav-backgroud:  #fafaf9;
+}
+
+body {
+    background-color: var(--main-background);
+    color: var(--text-color);
+    display: flex;  /*para colocar o header embaixo do nav*/
+    flex-direction: column; /*altura mínima da tela inteira*/
+    min-height: 100svh; /*alinhar no centro do eixo principal (vertical)*/
+    justify-content: center; /*alinhar no centro do eixo transversal (horizontal)*/
+    align-items: center; 
+    gap: 20px;
+}
+
+nav {
+    background: var(--nav-backgroud);
+    width: fit-content;
+    padding: 16px;
+    border-radius: 10px;
+}
